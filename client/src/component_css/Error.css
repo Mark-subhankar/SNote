@@ -1,0 +1,18 @@
+.img {
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    background-size: contain;
+    background-position: center center;
+    height: 100vh;
+    position: fixed;
+}
+
+@media (width: 412px) {
+    /* Adjust styles for screens up to 414px wide (Samsung Galaxy A51 portrait width) */
+    .img {
+        margin-top: 250px;
+        height: 50%;
+    }
+}
